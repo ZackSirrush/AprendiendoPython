@@ -1,0 +1,8 @@
+def sumar(a, b):
+    resultado_suma = a + b
+    return resultado_suma
+
+#Prueba de función sumar
+if __name__ == '__main__':
+    print(__name__)
+    print(f'Prueba función sumar desde el módulo: {sumar(15,30)}')
